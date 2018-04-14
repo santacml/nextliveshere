@@ -1,0 +1,144 @@
+/*
+Theme Name: Next Lives Here
+Description: A simple wp theme built with bootstrap for Next Lives Here. Blog posts all show up as portions of home page
+Author: Michaae Santacroce
+Version: 1.0
+Date: 2.7.2016
+
+License: 
+License URI: 
+*/
+
+@import url('./bootstrap/css/bootstrap.css');
+/*@import url('./bootstrap/css/bootstrap-responsive.css');*/
+
+:root{
+    --main-white: white;
+    --main-red: #E21D38;
+    --main-black: black;
+}
+body {
+    padding-bottom: 40px;
+    background-color: var(--main-white);
+    
+    font-family: 'PT Sans', sans-serif;
+}
+
+a {
+    color: var(--main-white);
+}
+a:focus, a:hover{
+    color: var(--main-white);
+}
+
+p, h1, h2, h3, h4, h5, h6{
+    /*font-family: 'Scope One', serif;
+    font-weight: 600;*/
+}
+
+h1, h2, h3, h4{
+    font-weight: bold;
+}
+
+h3{
+    margin: 0 0 0 0;
+}
+
+.post-display{
+    /*margin: 5 5 5 5;
+    padding: 10 10 10 10;*/
+    text-align: center;
+}
+
+.navbar{
+    background-color: var(--main-red);
+    border-radius: 0px !important; 
+}
+
+.navLink:hover{
+  text-decoration: none;
+  /*background-color: var(--main-red);*/
+  color: var(--main-black);
+}
+
+.icon-bar {
+    color: white;
+    border-color: white;
+    background-color: white;
+}
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.submitBtn{
+    border: none;
+    padding: 3px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color: #ffffff; 
+    background-color: var(--main-red); 
+}
+.submitBtn:hover{
+    color: #000000;
+}
+
+.EventsTitle{
+    display: none;
+}
+
+.ContactTitle{
+    display: none;
+}
+
+.MissionTitle{
+    padding-top:5em;
+}
+
+.1819_Innovation_HubTitle{
+    padding-top: 3em;
+}
+
+.eventsDiv{
+    width: 100%;
+}
+
+.container-fluid{
+    padding-left: 0px !important;
+    padding-right: 0px !important; 
+}
+
+.row{
+    margin-left: 0px !important;
+    margin-right: 0px !important; 
+}
+
+.affix {
+  top: 0;
+  width: 100%;
+}
+
+.affix-top {
+  width: 100%;
+}
+
+.affix-bottom {
+  position: absolute;
+  width: 100%;  
+}
+
+#navAffix{
+    z-index: 100;
+}
+
+.navBig{
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
