@@ -9,8 +9,8 @@ License:
 License URI: 
 */
 
-@import url('./bootstrap/css/bootstrap.css');
-/*@import url('./bootstrap/css/bootstrap-responsive.css');*/
+@import url('http://santacml.github.io/nextliveshere/wp-content/themes/nextliveshere/bootstrap/css/bootstrap.css');
+/*@import url('http://santacml.github.io/nextliveshere/wp-content/themes/nextliveshere/bootstrap/css/bootstrap-responsive.css');*/
 
 :root{
     --main-white: white;
